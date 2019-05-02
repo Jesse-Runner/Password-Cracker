@@ -1,0 +1,2 @@
+# Password-Cracker
+This program uses distributed computing to quickly identify encrypted passwords using salts. The program takes in a dictionary file and a set of encryptions as command line arguments. It then rips out the Salted passwords at the beginning of the encryption. The program proceeds to use a brute force approach to try every combination of words in our dictionary and up to 3 digits of a number at the beginning or end of a word. For instance, 123bug or bug123. Found passwords will be outputted at the end of the program.
